@@ -1,0 +1,41 @@
+.tic-tac-toe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 90vw;
+  max-width: 400px;
+  aspect-ratio: 1;
+  border: 1px solid red;
+}
+
+.boxes div{
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(2vw + 10px);
+  cursor: pointer;
+}
+
+h3, p{
+  font-size: calc(1.5vw + 14px);
+  margin-top: 20px;
+}
+button{
+font-size: calc(1vw + 12px);
+padding: 10px 20px;
+margin-top: 20px;
+cursor: pointer;
+border-radius: 8px;
+}
+
